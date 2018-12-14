@@ -1,0 +1,26 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "房地产",
+      "children": [
+        { 
+          "name": "核心型",
+          "dependsOn": ["房地产"]
+        },
+        { 
+          "name": "增值型",
+          "dependsOn": ["房地产"]
+        },
+        { 
+          "name": "机会型",
+          "dependsOn": ["房地产"]
+        },
+        { 
+          "name": "公开市场",
+          "dependsOn": ["房地产"]
+        }
+      ]
+    }
+  ]
+}

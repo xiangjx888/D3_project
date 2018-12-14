@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {"id": "Myriel", "Attribute1": 2, "Attribue2": "Favourite","group": 1},
+    {"id": "Napoleon",  "Attribute1": 2, "Attribue2": "Isabeau","group": 1},
+    {"id": "Isabeau", "group": 2},
+    {"id": "Favourite", "group": 2}
+  ],
+  "links": [
+    {"source": "Myriel", "target": "Favourite", "value": 1},
+    {"source": "Napoleon", "target": "Isabeau", "value": 8}
+  ]
+}

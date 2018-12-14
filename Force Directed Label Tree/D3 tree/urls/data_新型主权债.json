@@ -1,0 +1,14 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "混合资产",
+      "children": [
+        { 
+          "name": "新兴主权债",
+          "dependsOn": ["混合资产"]
+        }
+      ]
+    }
+  ]
+}

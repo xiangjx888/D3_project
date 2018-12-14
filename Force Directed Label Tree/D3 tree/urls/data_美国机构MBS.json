@@ -1,0 +1,13 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "固定收益总组合",
+      "children": [
+        {"name":"美国机构MBS",
+          "dependsOn":["固定收益总组合"]
+        }
+      ]
+    }
+  ]
+}

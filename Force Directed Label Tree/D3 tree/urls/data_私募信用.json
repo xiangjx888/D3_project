@@ -1,0 +1,14 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "混合资产",
+      "children": [
+        { 
+          "name": "私募信用",
+          "dependsOn": ["混合资产"]
+        }
+      ]
+    }
+  ]
+}

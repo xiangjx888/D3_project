@@ -1,0 +1,17 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "固定收益总组合",
+      "children": [
+        {"name":"全球债券主题投资",
+          "children":[
+            {"name":"通胀挂钩债",
+              "dependsOn":["固定收益总组合","全球债券主题投资"]}
+          ],
+          "dependsOn":["固定收益总组合"]
+        }
+      ]
+    }
+  ]
+}

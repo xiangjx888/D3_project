@@ -1,0 +1,13 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "固定收益总组合",
+      "children": [
+        {"name":"全球综合债积极",
+          "dependsOn":["固定收益总组合"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "公开市场股票总组合",
+      "children": [
+        {"name":"股票因子投资",
+          "dependsOn":["公开市场股票总组合"]
+        }
+      ]
+    }
+  ]
+}
